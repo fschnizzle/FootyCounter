@@ -1,0 +1,3 @@
+# Getting Started
+
+## About Scrimba
