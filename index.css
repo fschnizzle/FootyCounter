@@ -5,9 +5,31 @@ body {
     text-align: center;
 }
 
+#content {
+    margin: 5vh 25vw;
+    padding: 5vh 5vw;
+    background-color: rgba(255, 255, 255, 0.5);;
+}
+
+/* Media query for screens smaller than 500px */
+@media (max-width: 800px) {
+    #content {
+        margin: 5vh 10vw;
+        /* Adjust margin */
+    }
+}
+
+
+@media (max-width: 600px) {
+    #content {
+        margin: 5vh 5vw;
+        /* Adjust margin */
+    }
+}
+
 .grass-bg { 
     background-image: url(resources/img/grassBG.jpeg); 
-    height: 100vh; /* Ensure the body fills the viewport height */
+    height: 120vh; /* Ensure the body fills the viewport height */
     background-size: cover; /* Ensure the image covers the entire area */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Prevent tiling */
@@ -34,8 +56,9 @@ body {
 }
 
 h1 {
+    font-size: 28px;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 h2 {
@@ -117,7 +140,7 @@ button {
     padding: 0;
 }
 .score-button-label{
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(40, 40, 40);
     border-radius: 0%;
     width: 120px;
     height: 40px;
@@ -135,4 +158,9 @@ button {
 
 #end-quarter-btn:hover {
     filter: brightness(1.2);
+}
+
+#QBQ-el{
+    font-size: 16px;
+    height: 100px;
 }

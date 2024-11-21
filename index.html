@@ -3,31 +3,33 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body class="grass-bg">
-        <h1>Footy Score Keeper:</h1>
-        <div id="total-scores">
-            <p id="total-goals-el" class="score-box-item">G</p>
-            <p id="total-behinds-el" class="score-box-item">B</p>
-            <p id="total-score-el" class="score-box-item">T</p>
-        </div>
-
-        <div class="score-buttons">
-            <div class="goal-btns">
-                <button class="increment-btn square-btn" onclick="updateScore('g','+')">+1</button>
-                <button class="score-button-label">GOALS</button>
-                <button class="decrement-btn square-btn" onclick="updateScore('g','-')">-1</button>
+        <div id="content">
+            <h1>Footy Score Keeper:</h1>
+            <div id="total-scores">
+                <p id="total-goals-el" class="score-box-item">G</p>
+                <p id="total-behinds-el" class="score-box-item">B</p>
+                <p id="total-score-el" class="score-box-item">T</p>
             </div>
-            <div class="behind-btns ">
-                <button class="increment-btn square-btn" onclick="updateScore('b','+')">+1</button>
-                <button class="score-button-label">BEHINDS</button>
-                <button class="decrement-btn square-btn" onclick="updateScore('b','-')">-1</button>
-            </div>
-        </div>
 
-        
-        <button id="end-quarter-btn" onclick="endQuarter()">END Q<span id="current-quarter-el"></span></button>
-        <p id="QBQ-el">Quarter By Quarter:</p>
-        <p ></p>
-        <script src="index.js">
-        </script>
+            <div class="score-buttons">
+                <div class="goal-btns">
+                    <button class="increment-btn square-btn" onclick="updateScore('g','+')">+1</button>
+                    <button class="score-button-label">GOALS</button>
+                    <button class="decrement-btn square-btn" onclick="updateScore('g','-')">-1</button>
+                </div>
+                <div class="behind-btns ">
+                    <button class="increment-btn square-btn" onclick="updateScore('b','+')">+1</button>
+                    <button class="score-button-label">BEHINDS</button>
+                    <button class="decrement-btn square-btn" onclick="updateScore('b','-')">-1</button>
+                </div>
+            </div>
+
+            
+            <button id="end-quarter-btn" onclick="endQuarter()">END Q<span id="current-quarter-el"></span></button>
+            <p id="QBQ-el">Quarter By Quarter:</p>
+            <p ></p>
+            <script src="index.js">
+            </script>
+        </div>
     </body>
 </html>
