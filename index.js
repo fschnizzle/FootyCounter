@@ -1,5 +1,3 @@
-// let saveEl = document.getElementById("save-el")
-// let countEl = document.getElementById("count-el")
 let scores = [[0,0],[0,0],[0,0],[0,0]]
 let currentQuarter = 1;
 
