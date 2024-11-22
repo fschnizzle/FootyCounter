@@ -9,6 +9,9 @@ From Github repository webpage:
 - Unzip folder
 - Open "index.html" file from folder directly
 
+### Screenshot
+![alt text](resources/img/demoScreenshot.png)
+
 ## Concepts taught
 
 ### HTML / Structure
